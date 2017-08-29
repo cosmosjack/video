@@ -28,6 +28,7 @@ preg_match_all($vname, $info,$namearr);
 preg_match_all($vlist, $info,$listarr);
 preg_match_all($vstar, $info,$stararr);
 preg_match_all($vimg, $info,$imgarr);
+var_dump($imgarr[1]);
 preg_match_all($fname, $info,$fnamearr);
 preg_match_all($nname, $info,$nnamearr);
 foreach ($namearr[1] as $key => $value)

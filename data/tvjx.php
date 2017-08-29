@@ -29,6 +29,8 @@ preg_match_all($vstar, $info,$stararr);
 preg_match_all($vimg, $info,$imgarr);
 preg_match_all($nname, $info,$nnamearr);
 //print_r($stararr);
+//print_r($imgarr);
+//var_dump($imgarr);
 foreach ($namearr[1] as $key => $value)
 {
     //echo $value . '<br/>';
